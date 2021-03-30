@@ -1,0 +1,23 @@
+{
+    "data" : [{
+        "question" : "Hari pramuka diperingati setia tanggal",
+        "choice" : ["14 Agustus","15 Agustus","16 Agustus","17 Agustus"]
+    },
+    {
+        "question" : "Menara miring pisa berada di negara",
+        "choice" : ["italia","prancis","cina","jepang"]
+    },
+    {
+        "question" : "Suku Aborigin berasal dari negara",
+        "choice" : ["Amirika","Australia","India","Eropa"]
+    },
+    {
+        "question" : "Terusan Sues berada dinegara",
+        "choice" : ["Mesir","India","Saudi Arabia","Cina"]
+    },
+    {
+        "question" : "Binatang Komodo berasal dari pulau",
+        "choice" : ["Bali","Sumatera","Irian Jaya","Komodo"]
+    }]
+
+}
