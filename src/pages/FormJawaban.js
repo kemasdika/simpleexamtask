@@ -10,7 +10,7 @@ function FormJawaban() {
         dispatch(resetName(''))
         history.push('/')
     }
-    const {jawabanPilgan,jawabanPendek,jawabanText}  = useSelector((state) => state)
+    const {jawabanPilgan,jawabanPendek,jawabanText}  = useSelector((state) => state.jawaban)
     return (
         <div className='bg-gray-700 flex h-screen justify-center'>
             <div className='bg-gray-100 w-full md:w-1/2 flex-none mt-2 rounded-t-xl p-5 overflow-auto '>

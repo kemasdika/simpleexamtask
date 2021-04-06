@@ -1,9 +1,9 @@
-export const username = (data) => {
+export const profile = (data) => {
     return async (dispatch) => {
         try {
-            // console.log(data,'dari action')
+            console.log(data,'dari action')
             dispatch({
-                type:'USERNAME',
+                type:'PROFILE',
                 payload:data
             })
         } catch (err) {

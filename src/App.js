@@ -7,6 +7,7 @@ import {
 import Home from './pages/Home'
 import FormSoal from './pages/FormSoal'
 import FormJawaban from './pages/FormJawaban'
+import FormMaker from './pages/FormMaker'
 
 function App() {
   return (
@@ -16,8 +17,11 @@ function App() {
           <Route path="/jawaban">
             <FormJawaban />
           </Route>
-          <Route path="/soal">
+          <Route path="/soal/:id">
             <FormSoal />
+          </Route>
+          <Route path="/formMaker">
+            <FormMaker />
           </Route>
           <Route path="/" >
             <Home />

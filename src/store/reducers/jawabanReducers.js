@@ -1,5 +1,5 @@
 const intialState = {
-    username : '',
+    profile : [],
     jawabanPilgan : [],
     jawabanPendek : [],
     jawabanText : [],
@@ -7,9 +7,9 @@ const intialState = {
 
 export const jawabanReducers = (state = intialState, action) => {
     switch(action.type) {
-        case "USERNAME":
+        case "PROFILE":
             return {
-                ...state, username:action.payload,
+                ...state, profile:action.payload,
             }
         case "JAWABAN_PILGAN":
             return {
